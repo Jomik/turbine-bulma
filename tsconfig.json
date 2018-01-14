@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "dist/es6",
+    "rootDir": "./src",
+    "declaration": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "noStrictGenericChecks": true,
+    "lib": ["dom", "es5", "es2015.core", "es2015.promise", "es2015.iterable", "es2015.proxy", "es2016.array.include"]
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "examples/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

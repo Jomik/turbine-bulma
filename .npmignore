@@ -1,0 +1,7 @@
+node_modules/
+typings
+*.log
+docs
+coverage
+tsconfig.json
+typings.json
